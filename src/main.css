@@ -1,0 +1,77 @@
+body {
+    padding: 0px;
+    margin: 0px;
+    background: #ffffff url("images/bg.svg") no-repeat fixed bottom;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background: #333;
+}
+
+li {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    text-size: 16px;
+}
+
+#top {
+    position: sticky;
+    position: -webkit-sticky;
+    padding: 0px;
+    top: 0;
+    left: 0;
+}
+
+#top li, #bottom li {
+    border-style: none none none solid;
+    border-color: white;
+    border-width: 1px;
+    padding: 10px 20px;
+}
+
+#titletext {
+    padding: 10px;
+    font-variant: small-caps;
+    font-size: 36px;
+}
+
+#bodytext {
+    padding: 0px 10%;
+    padding-bottom: 200px;
+}
+
+#bodytext p {
+    font-kerning: normal;
+    font-size: 20px;
+    text-align: left;
+}
+
+#bottom {
+    visibility: hidden;
+    position: fixed;
+    padding: 0px 5px;
+    bottom: 0;
+    left: 0;
+}
+
+#top a li:hover, #bottom a li:hover {
+    background-color: #111;
+}
+
+@media only screen and (min-width: 1024px) {
+    #top {
+	padding: 20px;
+    }
+    #top li {
+	border-style: none;
+    }
+    #bottom {
+	visibility: visible;
+    }
+}
