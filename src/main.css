@@ -36,14 +36,16 @@ li {
 }
 
 #titletext {
-    position: static;
-    padding: 10px;
+    padding: 20px;
+    padding-top: 80px;
     font-variant: small-caps;
     font-size: 36px;
 }
 
 #bodytext {
-    padding: 0px 10%;
+    padding-top: 0px;
+    padding-left: 5%;
+    padding-right: 10%;
     padding-bottom: 200px;
 }
 
